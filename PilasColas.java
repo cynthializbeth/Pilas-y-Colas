@@ -110,7 +110,7 @@ public class PilasColas {
     /**
      * Método que imprime la pila
      */
-    public static void imprimirPila() {
+    private static void imprimirPila() {
         String cadena = "";
         for (String simbolo : pila) {
             cadena += simbolo + " ";
@@ -121,7 +121,7 @@ public class PilasColas {
     /**
      * Método que imprime la cola
      */
-    public static void imprimirCola() {
+    private static void imprimirCola() {
         String cadena = "";
         for (String simbolo : cola) {
             cadena += simbolo + " ";
